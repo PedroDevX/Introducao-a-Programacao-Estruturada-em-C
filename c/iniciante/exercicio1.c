@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 int main() {
-    int a = 5;
-    int b = 3;
-
-    printf("Resultado: %d\n", a + b);
-
-    return 0;
-}
+ int idade = 30;
+ float peso = 65.5;
+ char inicial = 'S';
+ printf("Idade: %d\n", idade);
+ printf("Peso: %.1f\n", peso);
+ printf("Inicial: %c\n", inicial);
+ return 0;
+} 
